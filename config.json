@@ -1,0 +1,15 @@
+{
+    "database": {
+        "path": "dop_fx.db"
+    },
+    "sources": {
+        "central_bank": {
+            "url": "https://cdn.bancentral.gov.do/documents/estadisticas/mercado-cambiario/documents/TASAS_CONVERTIBLES_OTRAS_MONEDAS.xlsx",
+            "timeout": 30
+        }
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "dop_fx.log"
+    }
+}
